@@ -5,11 +5,13 @@
   border: 1px solid black;
   background-color: white;
   color: black;
+  position: absolute;
+  transition: all 400ms ease-in-out;
 }
 
 /* ## Left cards */
 
-.card-1-left {
+/* .card-1-left {
   rotate: -4deg;
   z-index: 1;
 }
@@ -66,11 +68,11 @@
   rotate: 5deg;
   translate: 0 -90px;
   z-index: 10;
-}
+} */
 
 /* ### Right cards */
 
-.card-1-right {
+/* .card-1-right {
   rotate: 4deg;
   z-index: 1;
 }
@@ -127,4 +129,4 @@
   rotate: -5deg;
   translate: 0 -90px;
   z-index: 10;
-}
+} */
