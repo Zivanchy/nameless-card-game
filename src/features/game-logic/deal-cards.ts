@@ -33,6 +33,9 @@ export function dealCards() {
     leftoverCards,
   });
 
+  firstPlayerCards.sort((a, b) => a.value - b.value);
+  firstPlayerCards.sort((a, b) => a.suit.localeCompare(b.suit));
+
   return {
     firstPlayerCards,
     secondPlayerCards,
